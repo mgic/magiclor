@@ -1,0 +1,26 @@
+{
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
+  },
+  "name": "magi/magiclor",
+  "description": "magiclor 的扩展包",
+  "type": "library",
+  "license": "mit",
+  "authors": [
+    {
+      "name": "haoyunyun888",
+      "email": "13126726903@163.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "magi\\magiclor\\": "src/"
+    }
+  }
+}
